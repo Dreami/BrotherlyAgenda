@@ -1,25 +1,25 @@
-
 package brotherpackage;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
+
 
 public class Task {
-    private String title;
+    private String name;
     private String description;
-    private LocalDateTime dueDate;
+    private String dueDate;
     
-    public Task(String t, String d, LocalDateTime ldt) {
-        this.title = t;
+    public Task(String n, String d, String ld) {
+        this.name = n;
         this.description = d;
-        this.dueDate = ldt;
+        this.dueDate = ld;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getDescription() {
@@ -30,13 +30,11 @@ public class Task {
         this.description = description;
     }
 
-    public LocalDateTime getDueDate() {
+    public String getDueDate() {
         return dueDate;
     }
 
-    public void setDueDate(LocalDateTime dueDate) {
+    public void setDueDate(String dueDate) {
         this.dueDate = dueDate;
     }
-    
-    
 }

@@ -16,18 +16,19 @@ h3 {
     color: #999999;
 }
 
-#main {
-    margin-bottom: 130px;
-}
-
-#newTask {
-    border: solid 1px black;
-}
 
 #statusText {
     clear: both;
 }
 
 #taskList {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+#saveTaskForm div{
+    margin-bottom: 15px;
+}
+
+#saveTaskForm input {
+    width: 60%;
 }
