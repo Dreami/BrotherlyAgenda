@@ -1,0 +1,34 @@
+body {
+    padding: 25px;
+    /*
+    Not for body but for each div which contains a task
+    
+    background-image: url("images/background.jpg");
+    background-size: 100% 300px;
+    */
+}
+
+h1 {
+    color: #808080;
+}
+
+h3 {
+    color: #999999;
+}
+
+
+#statusText {
+    clear: both;
+}
+
+#taskList {
+    margin-bottom: 10px;
+}
+
+#saveTaskForm div{
+    margin-bottom: 15px;
+}
+
+#saveTaskForm input {
+    width: 60%;
+}
